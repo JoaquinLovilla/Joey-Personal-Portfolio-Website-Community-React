@@ -1,0 +1,442 @@
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-color-others-red: rgba(236, 42, 42, 1);
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-grey-grey50: rgba(249, 249, 249, 1);
+  --dl-color-others-red1: rgba(236, 42, 42, 1);
+  --dl-color-others-red2: rgba(236, 42, 42, 1);
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-color-grey-grey100: rgba(236, 236, 236, 1);
+  --dl-color-grey-grey200: rgba(228, 228, 228, 1);
+  --dl-color-grey-grey300: rgba(215, 215, 215, 1);
+  --dl-color-grey-grey400: rgba(208, 208, 208, 1);
+  --dl-color-grey-grey500: rgba(196, 196, 196, 1);
+  --dl-color-grey-grey501: rgba(249, 249, 249, 1);
+  --dl-color-grey-grey502: rgba(249, 249, 249, 1);
+  --dl-color-grey-grey600: rgba(178, 178, 178, 1);
+  --dl-color-grey-grey700: rgba(139, 139, 139, 1);
+  --dl-color-grey-grey800: rgba(108, 108, 108, 1);
+  --dl-color-grey-grey900: rgba(81, 81, 81, 1);
+  --dl-color-others-green: rgba(41, 174, 41, 1);
+  --dl-size-size-maxwidth: 1400px;
+  --dl-color-black-black50: rgba(230, 230, 230, 1);
+  --dl-color-grey-grey1001: rgba(236, 236, 236, 1);
+  --dl-color-grey-grey1002: rgba(236, 236, 236, 1);
+  --dl-color-grey-grey2001: rgba(228, 228, 228, 1);
+  --dl-color-grey-grey2002: rgba(228, 228, 228, 1);
+  --dl-color-grey-grey3001: rgba(215, 215, 215, 1);
+  --dl-color-grey-grey3002: rgba(215, 215, 215, 1);
+  --dl-color-grey-grey4001: rgba(208, 208, 208, 1);
+  --dl-color-grey-grey4002: rgba(208, 208, 208, 1);
+  --dl-color-grey-grey5001: rgba(196, 196, 196, 1);
+  --dl-color-grey-grey5002: rgba(196, 196, 196, 1);
+  --dl-color-grey-grey6001: rgba(178, 178, 178, 1);
+  --dl-color-grey-grey6002: rgba(178, 178, 178, 1);
+  --dl-color-grey-grey7001: rgba(139, 139, 139, 1);
+  --dl-color-grey-grey7002: rgba(139, 139, 139, 1);
+  --dl-color-grey-grey8001: rgba(108, 108, 108, 1);
+  --dl-color-grey-grey8002: rgba(108, 108, 108, 1);
+  --dl-color-grey-grey9001: rgba(81, 81, 81, 1);
+  --dl-color-grey-grey9002: rgba(81, 81, 81, 1);
+  --dl-color-others-green1: rgba(41, 174, 41, 1);
+  --dl-color-others-green2: rgba(41, 174, 41, 1);
+  --dl-color-others-orange: rgba(236, 118, 20, 1);
+  --dl-color-others-sussie: rgba(56, 224, 241, 1);
+  --dl-color-others-yellow: rgba(255, 198, 42, 1);
+  --dl-radius-radius-round: 50%;
+  --dl-color-black-black100: rgba(176, 176, 176, 1);
+  --dl-color-black-black200: rgba(138, 138, 138, 1);
+  --dl-color-black-black300: rgba(36, 36, 36, 1);
+  --dl-color-black-black400: rgba(20, 20, 20, 1);
+  --dl-color-black-black500: rgba(0, 0, 0, 1);
+  --dl-color-black-black501: rgba(230, 230, 230, 1);
+  --dl-color-black-black502: rgba(230, 230, 230, 1);
+  --dl-color-black-black600: rgba(0, 0, 0, 1);
+  --dl-color-black-black700: rgba(0, 0, 0, 1);
+  --dl-color-black-black800: rgba(0, 0, 0, 1);
+  --dl-color-black-black900: rgba(0, 0, 0, 1);
+  --dl-color-others-orange1: rgba(236, 118, 20, 1);
+  --dl-color-others-orange2: rgba(236, 118, 20, 1);
+  --dl-color-others-sussie1: rgba(56, 224, 241, 1);
+  --dl-color-others-sussie2: rgba(56, 224, 241, 1);
+  --dl-color-others-yellow1: rgba(255, 198, 42, 1);
+  --dl-color-others-yellow2: rgba(255, 198, 42, 1);
+  --dl-color-white-white500: rgba(255, 255, 255, 1);
+  --dl-color-white-white600: rgba(232, 232, 232, 1);
+  --dl-color-white-white700: rgba(181, 181, 181, 1);
+  --dl-color-white-white800: rgba(140, 140, 140, 1);
+  --dl-color-white-white900: rgba(107, 107, 107, 1);
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-color-black-black1001: rgba(176, 176, 176, 1);
+  --dl-color-black-black1002: rgba(176, 176, 176, 1);
+  --dl-color-black-black2001: rgba(138, 138, 138, 1);
+  --dl-color-black-black2002: rgba(138, 138, 138, 1);
+  --dl-color-black-black3001: rgba(36, 36, 36, 1);
+  --dl-color-black-black3002: rgba(36, 36, 36, 1);
+  --dl-color-black-black4001: rgba(20, 20, 20, 1);
+  --dl-color-black-black4002: rgba(20, 20, 20, 1);
+  --dl-color-black-black5001: rgba(0, 0, 0, 1);
+  --dl-color-black-black5002: rgba(0, 0, 0, 1);
+  --dl-color-black-black6001: rgba(0, 0, 0, 1);
+  --dl-color-black-black6002: rgba(0, 0, 0, 1);
+  --dl-color-black-black7001: rgba(0, 0, 0, 1);
+  --dl-color-black-black7002: rgba(0, 0, 0, 1);
+  --dl-color-black-black8001: rgba(0, 0, 0, 1);
+  --dl-color-black-black8002: rgba(0, 0, 0, 1);
+  --dl-color-black-black9001: rgba(0, 0, 0, 1);
+  --dl-color-black-black9002: rgba(0, 0, 0, 1);
+  --dl-color-others-lavender: rgba(109, 60, 245, 1);
+  --dl-color-white-white5001: rgba(255, 255, 255, 1);
+  --dl-color-white-white5002: rgba(255, 255, 255, 1);
+  --dl-color-white-white6001: rgba(232, 232, 232, 1);
+  --dl-color-white-white6002: rgba(232, 232, 232, 1);
+  --dl-color-white-white7001: rgba(181, 181, 181, 1);
+  --dl-color-white-white7002: rgba(181, 181, 181, 1);
+  --dl-color-white-white8001: rgba(140, 140, 140, 1);
+  --dl-color-white-white8002: rgba(140, 140, 140, 1);
+  --dl-color-white-white9001: rgba(107, 107, 107, 1);
+  --dl-color-white-white9002: rgba(107, 107, 107, 1);
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-color-others-bluejeans: rgba(0, 130, 255, 1);
+  --dl-color-others-lavender1: rgba(109, 60, 245, 1);
+  --dl-color-others-lavender2: rgba(109, 60, 245, 1);
+  --dl-space-space-threeunits: 48px;
+  --dl-color-others-bluejeans1: rgba(0, 130, 255, 1);
+  --dl-color-others-bluejeans2: rgba(0, 130, 255, 1);
+  --dl-space-space-oneandhalfunits: 24px;
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.Display2XL2 {
+  font-size: 227px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.HeadingH32 {
+  font-size: 32px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.BodyXL1 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.HeadingH31 {
+  font-size: 32px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.BodyXL {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.HeadingH51 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.HeadingH61 {
+  font-size: 48px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.DisplayXL {
+  font-size: 140px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.HeadingH21 {
+  font-size: 48px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.HeadingH2 {
+  font-size: 48px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.BodyM1 {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Display2XL {
+  font-size: 227px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.BodyM {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.DisplayXL1 {
+  font-size: 140px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.HeadingH6 {
+  font-size: 48px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.BodyL {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.HeadingH1 {
+  font-size: 64px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.Display2XL1 {
+  font-size: 227px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.HeadingH41 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.HeadingH22 {
+  font-size: 48px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.BodyXL2 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.BodyM2 {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.HeadingH62 {
+  font-size: 48px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.HeadingH3 {
+  font-size: 32px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.HeadingH52 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.DisplayM {
+  font-size: 84px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.DisplayM1 {
+  font-size: 84px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.HeadingH11 {
+  font-size: 64px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.HeadingH4 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.HeadingH5 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.BodyL1 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.HeadingH42 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.BodyL2 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.HeadingH12 {
+  font-size: 64px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.DisplayXL2 {
+  font-size: 140px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.DisplayM2 {
+  font-size: 84px;
+  font-style: normal;
+  font-family: Advent Pro;
+  font-weight: 500px;
+  font-stretch: normal;
+}
